@@ -13,6 +13,7 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
+      { text: '关于', link: '/about' },
     ],
 
     sidebar: [
@@ -25,7 +26,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'gitea', link: 'https://github.com/YPSO-org/Satisfactory' }
+      { icon: 'github', link: 'https://github.com/YPSO-org/Satisfactory' }
     ],
 
     footer: {
