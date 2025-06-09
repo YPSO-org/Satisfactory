@@ -1,11 +1,16 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Satisfactory - YPSO",
   description: "Yellow Peach Organization for Standardization",
+
+  head: [
+    ['link', { ref: 'icon', href: '/favicon.png' }]
+  ],
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/favicon.png',
+
     nav: [
       { text: '主页', link: '/' },
     ],
