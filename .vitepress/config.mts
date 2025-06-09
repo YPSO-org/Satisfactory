@@ -25,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'gitea', link: 'https://git.lovemilk.top:8000/YPOS/Satisfactory' }
+      { icon: 'gitea', link: 'https://github.com/YPSO-org/Satisfactory' }
     ],
 
     footer: {
